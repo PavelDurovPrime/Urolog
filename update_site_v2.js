@@ -549,16 +549,16 @@ const index = head('Головна') + header('home') + `
                     Доказова медицина, європейські протоколи <strong class="text-slate-900 font-extrabold">EAU</strong> та мікрохірургічний підхід для швидкого і безболісного відновлення.
                 </p>
                 
-                <div class="motion-hero-item motion-initial flex flex-col sm:flex-row gap-4 mt-4">
-                    <!-- Button 1 (Blue gradient pill) -->
-                    <button onclick="openBookingModal()" class="btn-primary px-10 py-4.5 text-[12px] uppercase tracking-[0.15em] font-bold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
+                <div class="motion-hero-item motion-initial flex flex-col sm:flex-row gap-5 mt-6">
+                    <!-- Button 1 (Blue gradient pill, larger) -->
+                    <button onclick="openBookingModal()" class="btn-primary px-12 py-5 md:py-6 text-[13px] md:text-sm uppercase tracking-[0.15em] font-extrabold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
                         <span>Записатися на прийом</span>
-                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
                     </button>
-                    <!-- Button 2 (Blue gradient pill) -->
-                    <a href="operations.html" class="btn-primary px-10 py-4.5 text-[12px] uppercase tracking-[0.15em] font-bold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
+                    <!-- Button 2 (Blue gradient pill, larger) -->
+                    <a href="operations.html" class="btn-primary px-12 py-5 md:py-6 text-[13px] md:text-sm uppercase tracking-[0.15em] font-extrabold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
                         <span>Всі послуги</span>
-                        <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
                     </a>
                 </div>
             </div>
@@ -567,16 +567,16 @@ const index = head('Головна') + header('home') + `
                 <!-- Background texture -->
                 <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMSIgY3k9IjEiIHI9IjEiIGZpbGw9IiNlMmU4ZjAiLz48L3N2Zz4=')] transform translate-x-12 translate-y-12 -z-10 w-full h-full opacity-60"></div>
                 
-                <!-- Photo 1 (Bottom Left, Larger) -->
-                <div class="absolute bottom-2 md:bottom-6 left-0 w-[68%] aspect-[4/5] z-20 shadow-2xl transform group-hover:-translate-y-4 group-hover:-translate-x-4 transition-all duration-700 ease-out border-8 border-white bg-white">
+                <!-- Photo 1 (Bottom Left, offset to reduce overlap) -->
+                <div class="absolute bottom-0 -left-2 md:-left-8 w-[62%] aspect-[4/5] z-20 shadow-2xl transform group-hover:-translate-y-4 group-hover:-translate-x-6 transition-all duration-700 ease-out border-8 border-white bg-white">
                     <div class="relative overflow-hidden group/img w-full h-full">
                         <div class="absolute inset-0 bg-med-900/10 group-hover/img:bg-transparent transition-colors duration-500 z-10"></div>
                         <img src="Photo/aksonov.jpg" alt="Лікар в роботі" class="w-full h-full object-cover grayscale-[30%] group-hover/img:grayscale-0 group-hover/img:scale-105 transition-all duration-700">
                     </div>
                 </div>
                 
-                <!-- Photo 2 (Top Right, Larger) -->
-                <div class="absolute top-2 md:top-6 right-0 w-[68%] aspect-[4/5] z-10 shadow-xl transform group-hover:translate-y-2 group-hover:translate-x-2 transition-all duration-700 ease-out border-8 border-white bg-slate-50">
+                <!-- Photo 2 (Top Right, offset to reduce overlap) -->
+                <div class="absolute top-0 -right-2 md:-right-8 w-[62%] aspect-[4/5] z-10 shadow-xl transform group-hover:translate-y-2 group-hover:translate-x-6 transition-all duration-700 ease-out border-8 border-white bg-slate-50">
                     <div class="relative overflow-hidden group/img2 w-full h-full">
                         <img src="Photo/aksenov-pavel-valerijevich.jpg" alt="Аксьонов Павло Валерійович" class="w-full h-full object-cover object-top group-hover/img2:scale-105 transition-all duration-700">
                     </div>
