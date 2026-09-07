@@ -549,16 +549,16 @@ const index = head('Головна') + header('home') + `
                     Доказова медицина, європейські протоколи <strong class="text-slate-900 font-extrabold">EAU</strong> та мікрохірургічний підхід для швидкого і безболісного відновлення.
                 </p>
                 
-                <div class="motion-hero-item motion-initial flex flex-col sm:flex-row gap-5 mt-6">
-                    <!-- Button 1 (Blue gradient pill, larger) -->
-                    <button onclick="openBookingModal()" class="btn-primary px-12 py-5 md:py-6 text-[13px] md:text-sm uppercase tracking-[0.15em] font-extrabold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
+                <div class="motion-hero-item motion-initial flex flex-col sm:flex-row gap-4 mt-8">
+                    <!-- Premium Architectural Primary Button -->
+                    <button onclick="openBookingModal()" class="group relative bg-slate-900 text-white px-10 py-5 text-[11px] font-bold uppercase tracking-[0.25em] transition-all duration-500 hover:bg-slate-800 flex items-center justify-center gap-4 w-full sm:w-auto">
                         <span>Записатися на прийом</span>
-                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </button>
-                    <!-- Button 2 (Blue gradient pill, larger) -->
-                    <a href="operations.html" class="btn-primary px-12 py-5 md:py-6 text-[13px] md:text-sm uppercase tracking-[0.15em] font-extrabold shadow-xl shadow-med-500/30 flex items-center justify-center gap-3 w-full sm:w-auto">
+                    <!-- Premium Architectural Secondary Button -->
+                    <a href="operations.html" class="group relative bg-transparent text-slate-900 border border-slate-300 px-10 py-5 text-[11px] font-bold uppercase tracking-[0.25em] transition-all duration-500 hover:border-slate-900 flex items-center justify-center gap-4 w-full sm:w-auto">
                         <span>Всі послуги</span>
-                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
                 </div>
             </div>
